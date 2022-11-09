@@ -20,7 +20,7 @@
 			<a href="#">Inicio</a>
 			<a href="#">Servicios</a>
 			<a href="#">Productos</a>
-			<a href="#">Adopción</a>
+			<a href="internas/adopcion.php">Adopción</a>
 			<a href="#">Contactos</a>
 		</nav>
 	</header>
@@ -38,6 +38,7 @@
 			<p>
 				El perro es un animal fascinante, y desde hace más de 40 mil años que fue domesticado, (aunque hay expertos que datan la domesticación de este animal hace más de 100 mil años), desde ese momento el Canis lupus familiaris, más conocido como perro, no ha dejado de sorprendernos gracias a su innegable lealtad, gran valentía, pero, sobre todo, por su enorme habilidad para amarnos como especie humana
 			</p>
+			<button>Más información</button>
 		</section>
 	</section>
 	<section class="adopcion2">
@@ -47,6 +48,7 @@
 			<p>
 				El gato doméstico, llamado más comúnmente gato, y de forma coloquial minino, michino, michi, micho, mizo,  miz,  morroñoo morrongo, y algunos nombres más, es un mamífero carnívoro de la familia Felidae. Es una subespecie domesticada, por la convivencia con el ser humano
 			</p>
+			<button class="adoptButton">Más información</button>
 		</section>
 	</section>
 	<section class="vTitle">
@@ -85,7 +87,7 @@
 	</section>
 	</section>
 	<section class="sponsor">
-		<h3>Sponsor</h3>
+		<img class="utpl" src="images/spon1.jpg">
 	</section>
 	<footer class="piePagina">
 		<section class="derechos">

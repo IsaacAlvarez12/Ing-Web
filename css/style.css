@@ -6,6 +6,12 @@ body{
 	background: rgba(215, 211, 211, 0.3);
 	font-family: 'Poppins', sans-serif;
 }
+main{
+	grid-area: slider;
+	margin: 0 auto;
+	width: 90%;
+	padding: 2em 0;
+}
 .contenedor{
 	width: 95%;
 	max-width: 1124px;
@@ -77,6 +83,13 @@ body{
 	background-color: #fff;
 	display: flex;
 	justify-content: space-between;
+}
+.contenedor.adopcion1 .adoptButton:hover {
+	color: #fff;
+	border-radius: 30;
+	align-content: center;
+	align-items: center;
+	background-color: #B5EF8A;
 }
 .contenedor .adopcion2{
 	grid-area: adopta2;
@@ -177,9 +190,19 @@ body{
     justify-content: space-between;
     
 }
+/*  ------------------------------- */
+/*             sponsor              */
+/*  ------------------------------- */
 .contenedor .sponsor{
 	grid-area: sponsor;
 	background-color: #333;
+	display: flex;
+	justify-content: center;
+	background-color:#9B9B9B ;
+}
+.utpl {
+	width: 200px;
+
 }
 /*  ------------------------------- */
 /*             Footer               */
@@ -205,4 +228,44 @@ body{
 }
 .contenedor .piePagina .redesSociales a:hover {
 
+}
+/*  ------------------------------- */
+/*            Formularios           */
+/*  ------------------------------- */
+
+.grupoInput{
+	padding: 10px;
+}
+.grupoInput label{
+	display: block;
+}
+.grupoInput input[type="text"],input[type="email"], input[type="date"], input[type="number"]{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5;
+
+}
+.boton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.boton:hover{
+	background-color: #3C8F40;
+}
+.centrado {
+	text-align: center;
+}
+
+.alerta {
+	color: red;
 }
