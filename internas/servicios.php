@@ -11,6 +11,7 @@
     <link rel="icon" href="../images/logo.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="../images/logo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="contenedor">
@@ -25,36 +26,14 @@
 		</nav>
 	</header>
 	<main>
-		<h2>Formulario de adopción</h2>
-		<form method="post" action="procesar.php">
-			<div class="grupoInput">
-				<label for="nombres">Nombres<span class="alerta">*</span></label>
-				<input type="text" name="nombres" id="nombres" placeholder="Ingrese sus nombres" required>
-			</div>
-			<div class="grupoInput">
-				<label for="apellidos">Apellidos<span class="alerta">*</span></label>
-				<input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos" required>
-			</div>
-			<div class="grupoInput">
-				<label for="correo">Correo</label>
-				<input type="email" name="correo" id="correo" placeholder="Ingrese su correo">
-			</div>
-			<div class="grupoInput">
-				<label for="telefono">Teléfono <span class="alerta">*</span></label>
-				<input type="number" name="telefono" id="telefono" placeholder="Ingrese su teléfono" required>
-			</div>
-			<div class="grupoInput">
-				<label for="direccion">Dirección</label>
-				<input type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección">
-			</div>
-			<div class="grupoInput">
-				<label for="fechaNacimiento">Fecha de Nacimiento</label>
-				<input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Ingrese su fecha de nacimiento">
-			</div>
-			<div class="centrado">
-				<button class="boton" type="submit">Guardar</button>
-			</div>
-		</form>
+		<h2>Servicios ofrecidos por Happy Pets:</h2>
+		<p>
+			En Happy Pets ofrecemos una asistencia completa y de calidad a nuestras mascotas rescatadas y a tu mascota. Nuestro principal objetivo es mantener la salud y el bienestar de nuestros animales y ayudarlos a restablecerse cuando están enfermos. Para ello, contamos con un personal altamente cualificado e instalaciones modernas y bien equipadas.
+		</p>
+		<p class="eslogan" href="">
+			Ayúdanos a ayudar!
+		</p>
+		
 	</main>
 	<section class="sponsor">
 		<img class="utpl" src="../images/spon1.jpg">

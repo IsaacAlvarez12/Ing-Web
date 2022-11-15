@@ -18,7 +18,7 @@
 		<section class="logotipo"><img src="images/logotipoPet.png"></section>
 		<nav class="menuPrincipal">
 			<a href="#">Inicio</a>
-			<a href="#">Servicios</a>
+			<a href="internas/servicios.php">Servicios</a>
 			<a href="#">Productos</a>
 			<a href="internas/adopcion.php">Adopción</a>
 			<a href="#">Contactos</a>
@@ -84,10 +84,10 @@
 	</section>
 	</section>
 		
-	</section>
-	</section>
+	
 	<section class="sponsor">
 		<img class="utpl" src="images/spon1.jpg">
+		<img class="logotipo2" src="images/logo.png">
 	</section>
 	<footer class="piePagina">
 		<section class="derechos">
